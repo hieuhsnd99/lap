@@ -1,0 +1,88 @@
+* {
+    font-family: Tahoma, arial;
+    font-size: 20px;    
+}
+
+body {
+    margin: 0 12%;
+}
+
+header {
+    height: 70px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 60px;
+    float: left;
+}
+
+.logo-text {
+    float: left;
+    margin: 20px 10px;
+    font-size: 40px;
+}
+
+.menu {
+    float: right;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.trichdan {
+    border: 10px solid black;
+    background:#03A9F4;
+    color: white;
+    border-radius: 100px;
+    padding: 30px;
+}
+
+.trichdan p {
+    text-align: right;
+    margin-right: 15%;
+}
+
+h1 {
+    font-style: italic;
+}
+
+.baiviet {
+    width: 25%;
+    height: 250px;
+    float: left;
+    margin: 40px;
+    border: 2px solid black;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+footer {
+    border: 2px solid black;
+    clear: both;
+    height: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    background: #03A9F4;
+}
+.vi-tri {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 30px;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  background-color: #92f3ff;
+}
+.copy {
+    padding: 20px;
+}
