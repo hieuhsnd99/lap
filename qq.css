@@ -1,0 +1,108 @@
+* {
+    font-family: Tahoma, arial;
+    font-size: 20px;    
+}
+
+body {
+    margin: 0 12%;
+}
+
+header {
+    height: 70px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 60px;
+    float: left;
+}
+
+.logo-text {
+    float: left;
+    margin: 20px 10px;
+    font-size: 40px;
+}
+
+.menu {
+    float:right;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.trichdan {
+    border: 10px solid black;
+    background:#03A9F4;
+    color: white;
+    border-radius: 100px;
+    padding: 30px;
+}
+
+.trichdan p {
+    text-align: right;
+    margin-right: 15%;
+}
+
+h1 {
+    font-style: italic;
+}
+
+.baiviet {
+    width: 25%;
+    float: left;
+    margin: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    overflow: auto;
+    height: 250px;
+}
+.baiviet:hover{
+color: red;
+}
+
+
+footer {
+    border: 2px solid black;
+    clear: both;
+    height: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    background: #03A9F4;
+}
+.vi-tri {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 30px;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  background-color: #92f3ff;
+}
+.copy {
+    padding: 20px;
+}
+.top {
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    padding: 5px;
+    border: 2px solid #9e9e9e;
+    border-radius: 10px;
+
+}
+.top img {
+    height: 50px;
+    padding: 5px;
+    display: block;
+    background-color: #cae8ca;
+}
+.top:hover {
+    background-color: #555
+}
